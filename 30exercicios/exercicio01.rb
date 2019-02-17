@@ -13,7 +13,7 @@ puts "digite seu  salario bruto";
 salario_bruto = gets.to_f #to_f para converte para tipo float.
 salario_liquido = 0;
 if (salario_bruto<=0) then
-puts "salario bruto não pod ser igual a zero e negativo";
+puts "salario bruto não pod ser igual a zero nem negativo";
 elsif (salario_bruto<=1000) then
 	salario_liquido = salario_bruto-(salario_bruto*3/100)
     puts "desconto de 3%, seu salario_liquido é #{salario_liquido}";
