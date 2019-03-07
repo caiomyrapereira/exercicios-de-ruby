@@ -1,5 +1,5 @@
 =begin 
-Cadastrar 20 números inteiros e informar quais são divisíveis por: 2, 3, 4, 5, 6, 7, 8, 9 e 10. 
+cadastrar números inteiros e informar quais são divisíveis por: 2, 3, 4, 5, 6, 7, 8, 9 e 10. 
 Exemplo: Se o usuário digitar 12 o sistema deverá informar que é divisível por 2, 3, 4 e 6.
 =end
 
