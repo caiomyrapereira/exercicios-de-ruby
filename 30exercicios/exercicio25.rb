@@ -8,19 +8,19 @@ soma_numero=0;
 soma_caractere = "";
 binario.length.times do |elem |
     if(binario[elem]=="1")
-    	 soma_numero+=2**elem
+       soma_numero+=2**elem
       if(elem<binario.length-1)
-	    soma_caractere+="#{2**elem} + "
-	  else
-        soma_caractere+="#{2**elem}"
- 	  end
+	 soma_caractere+="#{2**elem} + "
+      else
+         soma_caractere+="#{2**elem}"
+      end
     else
       if(elem<binario.length-1)
          soma_caractere+=" 0 + "
       else 
          soma_caractere+=" 0 "
       end
-	end
+    end
 end
 
 puts "exe:#{binario} =>#{soma_caractere} =  #{soma_numero}"
