@@ -1,5 +1,5 @@
-#criando mmc q receba dois numero do tipo inteiro.
-def primo(n) # se numero é primo returna true senao returna false 
+#criando mmc 
+def primo(n) 
    divisíveis = 0       
    cont = 0
    while(cont<n)
@@ -21,8 +21,8 @@ end
 
 
 def mmc(n1,n2) 
-	fatore =2 #=>n1 e n2 é dividido por  fatores primo q resulta da forma inteiro.
-	multiplicando_fatores = 1; #=> multiplicando todos fatores primos,ate ser tornar valor  mmc.
+	fatore =2 
+	multiplicando_fatores = 1
     
     
     while not((n1==1)&&(n2==1))#verificando se fatores é primo ,para dempois  n1 e n2 dividido por fatores, ate sobra 1.
