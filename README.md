@@ -1,2 +1,2 @@
 # exercicios-de-ruby
-objtivo é aprender Ruby.
+objetivo é aprender Ruby.
