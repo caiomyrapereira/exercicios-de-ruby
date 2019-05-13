@@ -20,8 +20,8 @@ total = []
 puts "//////////////////////////////////////////////////"
 
 3.times do  |x|
-	valor_x.push(preco_produtos[x]/dolar)
-	total.push(quantidade[x]*valor_x[x] )
+  valor_x.push(preco_produtos[x]/dolar)
+  total.push(quantidade[x]*valor_x[x] )
 
-		puts"#{nome_produtos[x]} - #{preco_produtos[x]}Reias| #{valor_x[x]}Dolar | #{quantidade[x]} Quantidade |total: #{total[x]}Dolar"
+  puts"#{nome_produtos[x]} - #{preco_produtos[x]}Reias| #{valor_x[x]}Dolar | #{quantidade[x]} Quantidade |total: #{total[x]}Dolar"
 end
