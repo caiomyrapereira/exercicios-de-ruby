@@ -1,23 +1,6 @@
 #criando mmc 
-def primo(n) 
-   divisíveis = 0       
-   cont = 0
-   while(cont<n)
 
-   	 cont+= 1;
-   	 if(n%cont == 0)
-      divisíveis+=1
-   	 end
-
-   end
-
-   if(divisíveis>2) 
-   	return false
-   else
-   	return true
-   end
-
-end
+require_relative "primo"
 
 
 def mmc(n1,n2) 
@@ -26,7 +9,7 @@ def mmc(n1,n2)
     
     
     while not((n1==1)&&(n2==1))#verificando se fatores é primo ,para dempois  n1 e n2 dividido por fatores, ate sobra 1.
-    	 if(primo(fatore))
+    	 if(Numero.primo(fatore))
             if((n1%fatore == 0)&&(n2%fatore == 0))
              n1/=fatore 
              n2/=fatore

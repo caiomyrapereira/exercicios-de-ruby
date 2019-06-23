@@ -1,34 +1,12 @@
 
-
-
-def primo(n) 
-   divisíveis = 0       
-   cont = 0
-   
-   while(cont<n)
-
-   	 cont+= 1;
-   	 if(n%cont == 0)
-      divisíveis+=1
-   	 end
-
-   end
-
-   if(divisíveis>2) 
-   	return false
-   else
-   	return true
-   end
-
-end
-
+require_relative "primo"
 
 def mdc(n1,n2)
    fatore = 2;
    multiplicando_comum = 1;
    while not((n1==1)&&(n2==1))
    
-        if(primo(fatore))
+        if(Numero.primo(fatore))
         
              if((n1%fatore == 0)&&(n2%fatore == 0))
               n1/=fatore 
