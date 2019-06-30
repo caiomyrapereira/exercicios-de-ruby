@@ -1,24 +1,17 @@
 
 class Numero
 
-   def self.primo(n)
+   def self.primo(numero)
 
-   	 divisíveis = 0       
-     cont = 0
-     while(cont<n)
+   	  cont = (1..numero).to_a;
+      divisiveis  = cont.select{ |item|
 
-   	   cont+= 1;
-   	   if(n%cont == 0)
-          divisíveis+=1
-   	   end
+        numero % item == 0
 
-     end
+      }
 
-     if(divisíveis>2) 
-   	   return false
-     else
-   	 return true
-     end
+     !(divisiveis.size>2) 
+   	  
 
    end
 
