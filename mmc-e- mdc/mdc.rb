@@ -1,9 +1,11 @@
 
 require_relative "primo"
 
+
 def mdc(n1,n2)
    fatore = 2;
-   multiplicando_comum = 1;
+   multiplicando_fatore_comum = 1;
+
    while not((n1==1)&&(n2==1))
    
         if(Numero.primo(fatore))
@@ -11,7 +13,7 @@ def mdc(n1,n2)
              if((n1%fatore == 0)&&(n2%fatore == 0))
               n1/=fatore 
               n2/=fatore
-              multiplicando_comum*=fatore
+              multiplicando_fatore_comum*=fatore
              elsif(n1%fatore==0)
               n1/=fatore
              elsif(n2%fatore==0)
@@ -27,7 +29,7 @@ def mdc(n1,n2)
         end
    end
    
-   return  multiplicando_comum;
+   return  multiplicando_fatore_comum;
 
 end
 
